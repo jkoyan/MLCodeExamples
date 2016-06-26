@@ -1,5 +1,5 @@
 # MLCodeExamples
-The MLCodeExamples Code Repository contains python and r code used to demonstrate the machine learning examples.
+The MLCodeExamples Code Repository contains python and r code used to demonstrate machine learning examples.
 
 1. The nbmodel directory contains code snippets to create a Gaussian Naive Bayes Classifier from the scikit-learn python framework,
    the classifier is trained with a training dataset, the classifier is then used to perform classification and predict 
