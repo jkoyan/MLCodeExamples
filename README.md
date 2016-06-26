@@ -8,7 +8,7 @@ The MLCodeExamples Code Repository contains python and r code used to demonstrat
      * Sepal Width
      * Petal lentgh
      * Petal Width
-   The class outcome can be one of the possible 3 outcomes which is setosa,versicolor and virginica. Each class refers to a type
-   of iris plant.
+     
+   The class outcome can be one of the possible 3 outcomes which is setosa,versicolor and virginica. Each class refers to a type of iris plant.
    For more information on the code please refer to the readme.md in the nbmodel directory.
    
