@@ -3,6 +3,7 @@
 The directory contains 3 sub directories and 2 files, lets go through each of the sub directories and the individual files
 
 1. data : The first sub directory is called data and it contains two files viz.
+
         * iris.data.txt - The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. 
           One class is linearly separable from the other 2; the latter are NOT linearly separable from each other. 
           The file was downloaded from the UCI Machine learning repository @ http://archive.ics.uci.edu/ml/datasets/Iris
