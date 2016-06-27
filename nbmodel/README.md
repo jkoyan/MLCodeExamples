@@ -31,6 +31,7 @@ The directory contains 3 sub directories and 2 files, lets go through each of th
           the y axis and the names in the column represents the x axis.
           
 3. r-code : The directory contains single code file called plots.r.
+
         * plots.r - Contain the R code that was used to generate the scatter plot for features from the iris dataset 
           called iris_data-scatter-plot-1.png, it was also used to plot the correlation coefficients between the
           features.
