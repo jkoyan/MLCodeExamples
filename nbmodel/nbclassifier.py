@@ -19,11 +19,13 @@ y = iris.target
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=0)
 
 
-
+# Create the Naive Bayes Classifier
 clf = GaussianNB()
 
+# Train the classifier using the fit method
 clf.fit(X_train,y_train)
 
+# Generate predictions i.e. class names on the test data set
 y_predict = clf.predict(X_test)
 
 score = accuracy_score(y_test,y_predict,normalize=False)
@@ -46,8 +48,7 @@ cm = confusion_matrix(y_test,y_predict)
 np.set_printoptions(precision=2)
 print('Confusion matrix, without normalization')
 print(cm)
-#df_cm = pd.crosstab(y_test,y_predict)
-#print(df_cm)
+
 plt.figure()
 plot_confusion_matrix(cm)
 
