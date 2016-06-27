@@ -14,6 +14,7 @@ The directory contains 3 sub directories and 2 files, lets go through each of th
 
 2. images : The directory contains 4 different images that were produced either using the nbclassifier.py or the plots.r 
    R code from the r-code directory
+   
         * confusion-matrix.png - The file was produced using the nbclassifier.py file by calling the plot_confusion_matrix
           method. The image helps in visualizing the accuracy of the classifier.
           
